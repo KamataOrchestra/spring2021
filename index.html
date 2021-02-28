@@ -9,7 +9,8 @@
         integrity="sha256-UzFD2WYH2U1dQpKDjjZK72VtPeWP50NoJjd26rnAdUI=" crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <link rel="icon" type="image/png" href="favi.png">
+    <title>30秒春コンピ</title>
 </head>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 <!--Vue-->
@@ -64,14 +65,37 @@
                     <li><i class="fas fa-chevron-circle-right"></i> ジャンルは何でもOK！音ならきっと大丈夫
                     <li><i class="fas fa-chevron-circle-right"></i> 本ページで音源公開後、サブスク配信を予定</li>
                     <li><i class="fas fa-chevron-circle-right"></i> 楽曲はクリエイティブ・コモンズで管理</li>
-                    <li><i class="fas fa-chevron-circle-right"></i> 下記を<i class="far fa-envelope"></i> kamataorchestra@gmail.comに送信で応募完了</li>
-                    <li><i class="fas fa-check"></i> 音源ファイル<br>*wav,m4a,mp3</li>
-                    <li><i class="fas fa-check"></i> 曲名</li>
-                    <li><i class="fas fa-check"></i> アーティスト名</li>
-                    <li><i class="fas fa-check"></i> アーティスト画像(300×300程度)<br>*あとで丸くするかも</li>
-                    <li><i class="fas fa-check"></i> SNS等のリンク<br>*希望者のみでOK アーティスト名と一緒に掲載します</li>
-                    <li><i class="fas fa-chevron-circle-right"></i> <mark> 〆切 2021年3月28日(日)23:59 </mark></li>
+                    <div class="border">
+                        <strong>応募方法</strong>
+                    <li><i class="far fa-file-audio"></i> 音源ファイル<br><small>*16bit/44.1kHz、WAV形式</small></li>
+                    <li><i class="fas fa-signature"></i> 曲名</li>
+                    <li><i class="fas fa-user-alt"></i> アーティスト名</li>
+                    <li><i class="far fa-user-circle"></i> アーティスト画像<small>(300px × 300px程度)</small><br><small>*あとで丸くするかも</small></li>
+                    <li><i class="fab fa-twitter"></i> SNS等のリンク<br><small>*希望者のみでOK<br>アーティスト名と一緒に本サイトで掲載します</small></li>
+                    <li><i class="far fa-envelope"></i> kamataorchestra@gmail.comに上記項目を送信で応募完了<i class="fas fa-hand-peace" style="color: pink;"></i></li>
+                    <li>応募の際は、<br><a href="#"v-scroll-to="'#terms'" style="border-bottom: 2px solid gray;">「詳しいお決まりごと」</a>もご確認ください。</li>
+                    </div>
+                    <li style="text-align: center; font-size: 20px;"><mark> 〆切 2021年3月28日(日)23:59 </mark></li>
                 </ul>
+            </div>
+            <div class="terms" id="terms">
+                <p class="title">詳しいお決まりごと</p>
+                <div class="terms-detail">
+                    <strong>◾️発表媒体</strong>
+                    <p>SoundCloud,Apple Music,Spotifyでの配信を予定しています。</p>
+                    <strong>◾️参加表明</strong>
+                    <p>音源ファイル、曲名、アーティスト名、アーティスト画像の提出をもってご参加受付といたします。</p>
+                    <strong>◾️提出可能作品数</strong>
+                    <p>お一人様何作品でもご提出が可能です。</p>
+                    <strong>◾️音源のレギュレーション</strong>
+                    <p>・16bit/44.1kHz、WAV形式</p>
+                    <p>・マスタリング済みのもの(こちら側では曲ごとに音量差が出ないようにするための音量調節のみ行います)。</p>
+                    <p>・使用許諾を得ていない無断サンプリングや、公序良俗に反する内容を含まない。</p>
+                    <strong>◾️ご提供された楽曲について</strong>
+                    <p>本コンピレーションアルバムの楽曲はすべてクリエイティブ・コモンズにより管理されます。</p>
+                    <p>楽曲の制作者様は、ご自身が提供された音源を自由にご利用できます。</p>
+                    <p>音楽サブスクリプションによる音源公開において、制作者様側から配信料金を徴収することは一切ございません。また収益が発生した際の分配もございませんのでご了承ください。</p>
+                </div>
             </div>
             <div class="adsense">
                 <div class="goods">

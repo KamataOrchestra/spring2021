@@ -13,14 +13,14 @@ ScrollReveal().reveal('.join',{
 ScrollReveal().reveal('.goods',{
     duration: 1000,
     delay:300,
-    origin:'left',
-    distance: '200px',
+    origin:'bottom',
+    distance: '100px',
 });
 ScrollReveal().reveal('.kuri',{
     duration: 1000,
     delay:300,
-    origin:'right',
-    distance: '200px',
+    origin:'bottom',
+    distance: '100px',
 });
 ScrollReveal().reveal('.main-header',{
     duration: 1000,

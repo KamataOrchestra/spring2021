@@ -10,6 +10,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+  padding-top: 2px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -121,7 +126,7 @@ header .category-header a {
 }
 
 .main-visual img {
-  width: 70%;
+  width: 80%;
   margin-top: 15px;
 }
 
@@ -151,6 +156,23 @@ header .category-header a {
   margin: 20px;
   line-height: 1.5;
   list-style-type: none !important;
+}
+
+.join strong {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+  border-bottom: dotted 1px;
+}
+
+.join .border {
+  margin: 0 5px;
+  border: 2px dotted white;
+  border-radius: 10px;
+}
+
+.join .border ul li {
+  margin: 0 -5px;
 }
 
 ul li i {
@@ -207,6 +229,41 @@ ul li i {
   opacity: 1;
   -webkit-transition: all 0.7s;
   transition: all 0.7s;
+}
+
+.terms {
+  margin-top: 50px !important;
+  margin: auto;
+  width: 85%;
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  -webkit-transition: -webkit-box-shadow 0.6s;
+  transition: -webkit-box-shadow 0.6s;
+  transition: box-shadow 0.6s;
+  transition: box-shadow 0.6s, -webkit-box-shadow 0.6s;
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.terms .terms-detail {
+  overflow-y: scroll;
+  margin: 20px;
+  padding: 10px;
+  height: 200px;
+  border-radius: 10px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.terms .terms-detail strong {
+  font-size: 14px;
+}
+
+.terms .terms-detail p {
+  font-size: 12px;
 }
 
 footer {
@@ -277,6 +334,9 @@ footer .footer-wrapper i {
     width: 30%;
   }
   .information {
+    width: 30%;
+  }
+  .terms {
     width: 30%;
   }
   .adsense img {
