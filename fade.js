@@ -1,14 +1,14 @@
 ScrollReveal().reveal('.main-visual',{
     duration: 2000,
-    delay:300,
+    delay:150,
 });
 ScrollReveal().reveal('.information',{
     duration: 2000,
-    delay:300,
+    delay:150,
 });
 ScrollReveal().reveal('.join',{
     duration: 2000,
-    delay:300,
+    delay:150,
 });
 ScrollReveal().reveal('.goods',{
     duration: 1000,
@@ -24,13 +24,13 @@ ScrollReveal().reveal('.kuri',{
 });
 ScrollReveal().reveal('.main-header',{
     duration: 1000,
-    delay:600,
+    delay:300,
     origin:'top',
     distance: '500px',
 });
 ScrollReveal().reveal('.category-header',{
     duration: 1000,
-    delay:600,
+    delay:300,
     origin:'top',
     distance: '500px',
 });
