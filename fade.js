@@ -34,3 +34,9 @@ ScrollReveal().reveal('.category-header',{
     origin:'top',
     distance: '500px',
 });
+ScrollReveal().reveal('.artist',{
+    duration: 1000,
+    delay:300,
+    origin:'bottom',
+    distance: '100px',
+});
