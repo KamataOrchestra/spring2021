@@ -421,6 +421,10 @@ footer .footer-wrapper i {
   .main-visual {
     width: 50%;
   }
+  .teaser {
+    width: 50%;
+    padding-top: 30.25%;
+  }
   .join-list {
     width: 50%;
   }
