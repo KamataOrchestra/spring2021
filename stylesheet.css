@@ -132,6 +132,11 @@ header .category-header a {
   margin-top: 15px;
 }
 
+.main-visual iframe {
+  width: 90%;
+  padding: 20px;
+}
+
 .main-visual:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -150,7 +155,7 @@ header .category-header a {
   margin: auto;
   width: 85%;
   text-align: center;
-  margin-top: 50px !important;
+  margin-top: 10px !important;
   position: relative;
   width: 100%;
   padding-top: 46.25%;
